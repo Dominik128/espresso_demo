@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">espresso_example</string>
+    <string name="start_text">Hallo Welt!</string>
+    <string name="button">Text ändern</string>
+    <string name="editText">Text eingeben</string>
+</resources>
