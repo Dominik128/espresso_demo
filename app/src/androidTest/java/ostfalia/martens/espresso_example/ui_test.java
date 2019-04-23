@@ -31,7 +31,7 @@ public class ui_test {
     }
 
     @Test
-    public void testEditText(){
+    public void testUI(){
         // type Text in EditText
         onView(withId(R.id.editText)).perform(typeText(toBeTyped));
 
@@ -40,5 +40,8 @@ public class ui_test {
 
         // check TextView change
         onView(withId(R.id.textView)).check(matches(withText(toBeTyped)));
+
+        // check if EditText is empty
+        onView(withId(R.id.editText)).check(matches(withText("")));
     }
 }
